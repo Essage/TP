@@ -1,2 +1,12 @@
 header
-{display: flex}
+{
+	display: flex;
+	justify-content=space-between;
+	flex-wrap :wrap-reverse;
+}
+
+header ul
+{
+	list-style: none;
+	display: block;
+}
